@@ -56,10 +56,6 @@
         NSLog(@"Subtracting matrix: %@", resultMatrix);
     }];
     
-    [AMMatrixCalculator subtractMatrix1:matrix1 andMatrix2:matrix2 withCompletion:^(AMSquareMatrix *resultMatrix) {
-        NSLog(@"Subtracting matrix: %@", resultMatrix);
-    }];
-    
     return YES;
 }
 
